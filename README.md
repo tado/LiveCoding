@@ -6,10 +6,10 @@
 
 使用する言語やアプリケーションのバージョンによって2つのブランチが用意されています。
 
-- [stable](https://github.com/tado/LiveCoding/stable) : 書籍執筆時点で動作確認したコード
+- [stable](https://github.com/tado/LiveCoding/tree/stable) : 書籍執筆時点で動作確認したコード
   - Sonic Pi 3.10.0
   - TidalCycles 0.9.10
-- [master](https://github.com/tado/LiveCoding/master) : 現状の最新版に更新したコード
+- [master](https://github.com/tado/LiveCoding/tree/master) : 現状の最新版に更新したコード
   - Sonic Pi 3.10.0
   - TidalCycles 0.10.0
   
