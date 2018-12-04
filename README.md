@@ -4,7 +4,7 @@
 
 ## リポジトリ
 
-リポジトリはバージョンによって2つ用意されています。
+使用する言語やアプリケーションのバージョンによって2つのブランチが用意されています。
 
 - [LiveCoding/stable](https://github.com/tado/LiveCoding/stable) : 書籍執筆時点で動作確認したコード
   - Sonic Pi 3.10.0
