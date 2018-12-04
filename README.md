@@ -1,4 +1,4 @@
-# LiveCoding
+# 演奏するプログラミング、ライブコーディングの思想と実践 - Show Us Your Screens
 
 「演奏するプログラミング、ライブコーディングの思想と実践 - Show Us Your Screens」のサンプルコードを掲載しています。
 
