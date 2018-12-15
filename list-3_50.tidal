@@ -1,0 +1,5 @@
+d1 $ jux (rev) $ sound "bd*2 [cp*2 hc*3]"
+
+d1 $ jux (iter 8) $ sound "bd*2 [cp*2 hc*3]"
+
+d1 $ jux (slow 1.5) $ sound "bd*2 [cp*2 hc*3]"
