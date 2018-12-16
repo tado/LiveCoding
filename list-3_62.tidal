@@ -1,0 +1,6 @@
+d1
+  $ sometimesBy 0.2 (rev)
+  $ whenmod 8 6 (slow 2)
+  $ every 4 (0.125 <~)
+  $ often (jux (iter 4))
+  $ sound "bd*2 [cp*2 hc*3]"

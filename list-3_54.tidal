@@ -1,0 +1,1 @@
+d1 $ whenmod 8 6 (fast 2) $ sound "bd*2 [cp*2 hc*3]"

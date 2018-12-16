@@ -1,0 +1,6 @@
+d1 
+  $ stack [
+    sound "ifdrums(5, 8)" # n "{0 1 2 3}%8",
+    sound "bd*2 [cp hc] ~ glitch",
+    sound "[~ casio*2] [~ hc*4]"
+  ]

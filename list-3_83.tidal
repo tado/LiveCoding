@@ -1,0 +1,5 @@
+do
+  let
+    pat1 = "[1 0 1*2 0 1/2 1 0 0]"
+  d1 
+    $ gain pat1 # sound "bd"

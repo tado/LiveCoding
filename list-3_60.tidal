@@ -1,0 +1,4 @@
+d1
+  $ rev
+  $ slow 2
+  $ sound "bd*2 [cp*2 hc*3]"

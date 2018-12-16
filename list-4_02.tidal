@@ -1,0 +1,5 @@
+d1
+  $ sometimesBy 0.3 (jux (0.125 ~>))
+  $ sound "tictac(5, 8, [0, 3])"
+  # n "[7 9 6 10]*2"
+  # delay "0.5" # delaytime (3/8)

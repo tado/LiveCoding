@@ -1,0 +1,7 @@
+a.show()
+a.setBins(3)
+osc(()=>(a.fft[0])*10+10, 0.1, 0.5)
+  .diff(o0)
+  .scrollX(1.0, ()=>(a.fft[1])/1000.0)
+  .rotate(0.3, ()=>(a.fft[2])/100.0)
+  .kaleid(2).out(o0)

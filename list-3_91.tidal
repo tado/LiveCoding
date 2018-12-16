@@ -1,0 +1,25 @@
+do
+  let
+    pat = "{1 0/2 1 0 1 0 1/2 1 0 0 1/3}%8"
+    inverse 1 = 0
+    inverse 0 = 1
+  d1
+    $ whenmod 16 15 (rev)
+    $ sometimesBy 0.4 (jux (0.125 ~>))
+    $ sometimesBy 0.1 (1.25 <~)
+    $ stack [
+      sound "bd:3*2" # gain "1.7",
+      sound "ifdrums(5, 8)" # n "{0 1 2 3}%8",
+      sound "~ [cp hc] ~ bass",
+      gain pat # sound "glitch" # n (irand 20),
+      gain (inverse <$> pat) # sound "super808" # n (irand 12),
+      sound "superzow(3, 8, {0, 3})"
+        # n ("{0, <4 5>/4, <7 9>/8}" - "{19, 12, 5, 0}" + "<0 4 7 9>/16")
+        # sustain "{0.2 0.05}%8"
+        # gain "0.8"
+    ]
+    # lpf (scale 800 18000 $ slow 16 $ sine1)
+    # resonance 0.2
+    # delay "0.5" # delaytime (choose [1/2, 1/4]) # delayfeedback "0.5"
+    # room "0.2" # size "0.7"
+    # shape "0.5"

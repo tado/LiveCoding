@@ -1,0 +1,11 @@
+d1
+  $ jux ((5/8) <~)
+  $ sometimesBy 0.4 (jux (rev))
+  $ sound "MyMoog(3, 8, [0, 3])"
+  # n "[c3, e4, g3, <b4 a4>]"
+  |+| n "<0 -12 12 0 -5 7>/2"
+  # sustain "0.4"
+  # pitch1 (scale 1.5 32.0 $ slow 12 $ sine1)
+  # delay "0.3" # delaytime (3/8) # delayfeedback "0.3"
+  # lpf (scale 800 15000 $ slow 8 $ sine1)
+  # resonance "0.2"
