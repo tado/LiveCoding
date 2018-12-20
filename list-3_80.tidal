@@ -4,7 +4,7 @@ d1
   # pan (rand)
   # n (irand 12)
   # up (choose [0, 4, 5, 7])
-  # lpf (scale 100 12000 $ rand)
+  # lpf (range 100 12000 $ rand)
   # resonance (choose [0.1, 0.1, 0.1, 0.3])
   # delay "0.5"
   # delaytime (choose[0.0625, 0.125, 0.25, 0.5])

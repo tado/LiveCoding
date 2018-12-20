@@ -3,4 +3,4 @@ d1
   # pan (rand)
   # n (irand 12)
   # up (choose [0, 4, 5, 7])
-  # lpf (scale 100 8000 $ rand)
+  # lpf (range 100 8000 $ rand)
