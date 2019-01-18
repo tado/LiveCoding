@@ -4,6 +4,6 @@ d1
     # note "[c4, e4, g4, <a4 b4>]"
     # sustain "[0.1 0.2 0.1 0.4]*2"
     # gain "0.8"
-    # lpf (scale 800 8000 $ slow 8 $sine1),
+    # lpf (range 800 8000 $ slow 8 $sine),
     sound "ifdrums(5, 8, 0)" # n (run 3)
   ]
