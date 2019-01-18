@@ -14,7 +14,7 @@ do
       gain pat # sound "glitch" # n (irand 20),
       gain (inverse <$> pat) # sound "super808" # n (irand 12),
       sound "superzow(3, 8, {0, 3})"
-        # n ("{0, <4 5>/4, <7 9>/8}" - "{19, 12, 5, 0}" + "<0 4 7 9>/16")
+        # note ("{0, <4 5>/4, <7 9>/8}" - "{19, 12, 5, 0}" + "<0 4 7 9>/16")
         # sustain "{0.2 0.05}%8"
         # gain "0.8"
     ]
