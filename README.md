@@ -11,6 +11,6 @@
   - TidalCycles 0.9.10
 - [master](https://github.com/tado/LiveCoding/tree/master) : 現状の最新版に更新したコード
   - Sonic Pi 3.10.0
-  - TidalCycles 0.10.0
+  - TidalCycles 1.0.7
   
 使用しているバージョンにあわせて選択してください。
