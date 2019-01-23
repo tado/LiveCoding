@@ -1,5 +1,5 @@
 d1
   $ sound "supersaw(5, 8)"
-  # note "[c4, e4, g4, <a4 b4>]"
+  # n "[c4, e4, g4, <a4 b4>]"
   # sustain "[0.1 0.2 0.1 0.4]*2"
   # lpf (range 800 8000 $ slow 8 $ sine)

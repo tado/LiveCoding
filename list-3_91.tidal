@@ -20,7 +20,9 @@ do
     ]
     # lpf (range 800 18000 $ slow 16 $ sine)
     # resonance 0.2
-    # delay "0.5" # delaytime (choose [1/2, 1/4]) # delayfeedback "0.5"
+    # delay "0.5"
+    # delaytime (choose [1/2/(130/120), 1/4/(130/120)])
+    # delayfeedback "0.5"
     # room "0.2" # size "0.7"
     # shape "0.5"
     # cps (130/120)

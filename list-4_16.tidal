@@ -1,1 +1,1 @@
-d1 $ sound "SawSynth*4" # note "c4 g5 c5 g4"
+d1 $ sound "SawSynth*4" # n "c4 g5 c5 g4"
